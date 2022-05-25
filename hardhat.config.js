@@ -17,7 +17,7 @@
  const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
 
  module.exports = {
-   defaultNetwork: "rinkeby",
+   defaultNetwork: "ropsten",
    networks: {
      hardhat: {
        forking: {
